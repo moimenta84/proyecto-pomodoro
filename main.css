@@ -1,0 +1,108 @@
+body {
+
+    font-family: "roboto", sans-serif;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+.aplicacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contenedor-tareas {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 20 px rgba(0, 0, 0, 0.3);
+}
+
+.contenedor-temporizador {
+
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20 px rgba(0, 0, 0, 0.3);
+}
+
+#lista-tareas {
+
+    list-style-type: none;
+    padding: 0px;
+    text-align: left;
+
+}
+
+#lista-tareas li {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+#lista-tareas li.completada {
+    text-decoration: line-through;
+    background-color: rgba(0, 255, 0, 0.3)
+}
+
+#formularios-tareas {
+
+    display: flex;
+    margin-top: 10px;
+}
+
+#nueva-tarea {
+
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#nueva-tarea::placeholder {
+
+    color: #ffff
+}
+
+#formularios-tareas button {
+
+    background-color: #00ffcc;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+
+}
+
+#formularios-tareas button:hover {
+
+    background-color: #00d9b5;
+
+}
