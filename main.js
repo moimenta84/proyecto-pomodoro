@@ -11,7 +11,7 @@ const FORMULARIO_TAREAS = document.querySelector("#formularios-tareas");
 const NUEVA_TAREA = document.querySelector("#nueva-tarea");
 const BOTON_INICIAR = document.querySelector("#boton-iniciar");
 const BOTON_DETENER = document.querySelector("#boton-detener");
-const BOTON_REINICIAR = document.querySelector("#boton-reiniciar");
+const BOTON_REINICIAR = document.querySelector("#boton-reiniciarsss");
 
 function actualizarTemporizador() {
 
